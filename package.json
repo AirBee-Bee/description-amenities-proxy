@@ -1,17 +1,26 @@
 {
-  "name": "",
-  "version": "",
+  "name": "airbeebee-proxy",
+  "version": "1.0.0",
   "description": "",
-  "author": "",
-  "license": "",
+  "author": "Grace Lindelien",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AirBee-Bee/description-amenities-proxy.git"
+  },
   "engines": {
     "node": ">=6.13.0"
   },
-  "scripts": {
-  },
+  "scripts": {},
   "dependencies": {
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "eslint-config-hackreactor": "git://github.com/reactorcore/eslint-config-hackreactor"
+    "eslint": "5.16.0",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-jsx-a11y": "^6.3.1",
+    "eslint-plugin-react": "^7.20.5",
+    "eslint-plugin-react-hooks": "^4.0.0"
   }
 }
