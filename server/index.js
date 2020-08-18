@@ -2,11 +2,19 @@ const express = require('express');
 const path = require('path');
 const cors = require('cors');
 const app = express();
-const port = 3000;
+const port = 3001;
 app.use(cors());
 
 app.get('/listing/:id', (req, res) => {
   res.sendFile('index.html', {root: path.join(__dirname, '../public')});
+});
+
+app.get('/public/style.css', (req, res) => {
+  res.sendFile('style.css', {root: path.join(__dirname, '../public')});
+});
+
+app.get('/listing/:id/photos', (req, res) => {
+  res.redirect(`http://localhost:3000/listing/${req.params.id}/photos`);
 });
 
 app.get('/listing/:id/info', (req, res) => {
