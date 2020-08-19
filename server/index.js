@@ -29,6 +29,10 @@ app.get('/listing/:id/highlights', (req, res) => {
   res.redirect(`http://localhost:3333/listing/${req.params.id}/highlights`);
 });
 
+app.get('/listing/:id/rooms', (req, res) => {
+  res.redirect(`http://localhost:5000/listing/${req.params.id}/rooms`);
+});
+
 app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}`);
 });
