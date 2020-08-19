@@ -12,7 +12,10 @@
   height: auto;
 }
 
-#photos {}
+#photos {
+  height: 480px;
+  overflow: hidden;
+}
 
 #description {
   width: 655px;
