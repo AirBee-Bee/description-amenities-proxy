@@ -1,0 +1,36 @@
+#main {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+
+#container {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: auto;
+}
+
+#photos {
+  margin: auto;
+  height: 480px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#middle {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+#app {
+  padding-top: 50px;
+}
+
+#reviews {
+  width: 1000px;
+  overflow: hidden;
+  margin-bottom: 300px;
+}
