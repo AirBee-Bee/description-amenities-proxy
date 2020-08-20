@@ -17,7 +17,7 @@
 
 ## Usage
 
-> This repo contains 5 directories. Use the links above for the related projects to view usage instructions for each service.
+> This repo relies on 4 services. Use the links above for the related projects to view usage instructions for each service. Each service will need to be cloned to your local computer, dependencies installed, databases setup and seeded, and servers started.
 
 > The below instructions are for the proxy directory only. From within the root directory for the proxy server, run the following commands:
 
