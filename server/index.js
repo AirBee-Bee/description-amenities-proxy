@@ -33,6 +33,18 @@ app.get('/listing/:id/rooms', (req, res) => {
   res.redirect(`http://localhost:5000/listing/${req.params.id}/rooms`);
 });
 
+app.get('/propertyScores/*', (req, res) => {
+  res.redirect(`http://localhost:1215${req.url}`);
+});
+
+app.get('/propertyReviews/*', (req, res) => {
+  res.redirect(`http://localhost:1215${req.url}`);
+});
+
+app.get('/userInfo/*', (req, res) => {
+  res.redirect(`http://localhost:1215${req.url}`);
+});
+
 app.listen(port, () => {
   console.log(`Listening at http://localhost:${port}`);
 });

@@ -28,3 +28,9 @@
 #app {
   padding-top: 50px;
 }
+
+#reviews {
+  width: 1000px;
+  overflow: hidden;
+  margin-bottom: 300px;
+}
