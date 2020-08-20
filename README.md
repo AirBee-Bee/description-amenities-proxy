@@ -1,4 +1,4 @@
-# Project Name
+# Air Bee & Bee | Proxy Server
 
 > This repo contains a proxy server for 4 services, which together render the Air Bee & Bee listing page.
 
