@@ -14,19 +14,19 @@ app.get('/public/style.css', (req, res) => {
 });
 
 app.get('/listing/:id/photos', (req, res) => {
-  res.redirect(`http://localhost:3000/listing/${req.params.id}/photos`);
+  res.redirect(`http://18.220.129.153:3000/listing/${req.params.id}/photos`);
 });
 
 app.get('/listing/:id/info', (req, res) => {
-  res.redirect(`http://localhost:3333/listing/${req.params.id}/info`);
+  res.redirect(`http://3.85.1.107:3333/listing/${req.params.id}/info`);
 });
 
 app.get('/listing/:id/amenities', (req, res) => {
-  res.redirect(`http://localhost:3333/listing/${req.params.id}/amenities`);
+  res.redirect(`http://3.85.1.107:3333/listing/${req.params.id}/amenities`);
 });
 
 app.get('/listing/:id/highlights', (req, res) => {
-  res.redirect(`http://localhost:3333/listing/${req.params.id}/highlights`);
+  res.redirect(`http://3.85.1.107:3333/listing/${req.params.id}/highlights`);
 });
 
 app.get('/listing/:id/rooms', (req, res) => {
