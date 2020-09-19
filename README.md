@@ -1,13 +1,13 @@
-# Air Bee & Bee | Proxy Server
+# Su Casa | Proxy Server
 
-> This repo contains a proxy server for 4 services, which together render the Air Bee & Bee listing page.
+> This repo contains a proxy server for 4 services, which together render the Su Casa vacation rental listing page.
 
 ## Related Projects
 
-  - https://github.com/AirBee-Bee/photo-carousel
-  - https://github.com/AirBee-Bee/description-amenities
-  - https://github.com/AirBee-Bee/checkin-checkout
-  - https://github.com/AirBee-Bee/reviews
+  - https://github.com/Su-Casa/photo-carousel
+  - https://github.com/Su-Casa/description-amenities-service
+  - https://github.com/Su-Casa/checkin-checkout
+  - https://github.com/Su-Casa/reviews
 
 ## Table of Contents
 
